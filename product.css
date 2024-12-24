@@ -1,0 +1,53 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: rgb(219, 211, 211);
+}
+.bgcolor 
+{
+    position: sticky;
+    position:-webkit-sticky;
+    top: 0; 
+}
+
+.product{
+    box-shadow: 3px 9px 9px #5a5353;
+    width: fit-content;
+    background-color: rgb(238, 233, 233);
+    border-radius: 5px;
+}
+.container{
+    box-sizing: border-box;
+    display: grid;
+    gap: 80px;
+    grid-template-columns:auto auto auto;
+    padding: 40px;
+    margin-left: 20px;
+    
+}
+.product img{
+width: 350px;
+height: 250px;
+}
+.desc h3{
+padding:4px;
+margin:10px 80px 20px;
+border:1px dotted black;
+}
+
+.desc{
+    text-align: center;
+    padding-bottom: 15px;    
+    cursor: pointer;
+}
+ 
+.desc button{
+    cursor: pointer;
+    padding:5px;
+    margin:0 10px 5px;
+}
+h2{
+    scroll-margin-top: 80px;
+}

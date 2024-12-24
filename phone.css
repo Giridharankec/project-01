@@ -1,0 +1,71 @@
+.contacts{
+    background-color: white;
+}
+.bgcolor 
+{
+    position: sticky;
+    position:-webkit-sticky;
+    top: 0;
+    z-index: 2;
+}
+
+.container {
+    position: relative;
+  }
+  
+  .black-box {
+    position: relative;
+    height: 600px;
+    margin: 30px;
+  }
+  
+  .contact {
+    position: absolute;
+    background: lightgray;
+    height: 440px;  
+    width: 350px;
+    left: 30px;
+    top: 50px;
+    z-index: 1;
+  }
+  .contact h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    font-size: 25px;
+    margin-left: 20px;
+  }
+
+  .contact p{
+    margin-left: 20px;
+  }
+  
+  .details {
+    position: absolute;
+    background: white;
+    width: 500px;
+    left: 450px;
+    top: 35px;
+    height: 550px;
+  }
+
+
+  .details label{
+        color: black;
+        margin-left: 30px;
+  }
+  .details input{
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+  }
+
+  .map{
+    padding-top: 20px;
+    background-color: lightgray;
+    height: 550px;
+  }
+  .map p{
+    font-size: 20px;
+    line-height: 1.5;
+  }
+  
